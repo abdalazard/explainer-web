@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/card";
 const Index = () => {
   const handleDownload = () => {
     // Aqui você deve adicionar o link real para download do seu XPI
-    window.location.href = "/analyzer.xpi";
+    window.location.href = "/download";
   };
 
   const features = [
