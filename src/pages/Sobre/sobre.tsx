@@ -13,7 +13,7 @@ const Sobre = () => {
               melhor questões complexas, transformando o processo de aprendizagem.
             </p>
             <p className="text-lg text-gray-600">
-              Desenvolvido por uma equipe apaixonada por educação e tecnologia,
+              Desenvolvido por um desenvolvedor apaixonado por educação e tecnologia,
               o Analyzeer está em constante evolução para oferecer a melhor
               experiência possível aos nossos usuários.
             </p>
