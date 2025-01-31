@@ -56,7 +56,7 @@ const Hero = () => {
               <Download className="w-5 h-5" />
               {buttonText}
             </button> */}
-            <a className="bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-blue-50 transition-colors" href="https://addons.mozilla.org/firefox/downloads/file/4428660/analyzeer-1.0.2.xpi">
+            <a className="bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-blue-50 transition-colors" href="https://addons.mozilla.org/firefox/downloads/file/4428669/analyzeer-1.0.3.xpi">
               <Download className="w-5 h-5" />
               {buttonText}
             </a>
