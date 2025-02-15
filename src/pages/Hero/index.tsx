@@ -17,10 +17,16 @@ const Hero = () => {
             />
           </div>
           <p className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto">
-            Entenda questões complexas de forma simples com ajuda da IA
+            A <strong>Inteligência Artificial</strong> que te ajuda a gabaritar.
           </p>
           <div className="flex justify-center">
-            <a className="bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-blue-50 transition-colors" href="https://addons.mozilla.org/firefox/downloads/file/4428669/analyzeer-1.0.3.xpi">
+            <a
+              className={`bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-blue-50 transition-colors ${!isFirefox ? 'opacity-50 cursor-not-allowed' : ''}`}
+              href={isFirefox ? "https://addons.mozilla.org/firefox/downloads/file/4428669/analyzeer-1.0.3.xpi" : undefined}
+              target={isFirefox ? "_blank" : undefined}
+              rel={isFirefox ? "noopener noreferrer" : undefined}
+              aria-disabled={!isFirefox}
+            >
               <Download className="w-5 h-5" />
               {buttonText}
             </a>
