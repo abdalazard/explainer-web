@@ -18,7 +18,7 @@ const Contato = () => {
                 className="flex items-center gap-2 text-gray-600 hover:text-yellow-600 transition-colors"
               >
                 <Mail className="w-6 h-6" />
-                <span>Email</span>
+                <span>abdalazard@gmail.com</span>
               </a>
               <a 
                 href="https://github.com/abdalazard"
@@ -31,6 +31,34 @@ const Contato = () => {
               </a>
               <a 
                 href="https://www.linkedin.com/in/viniciusabdala10/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-600 hover:text-yellow-600 transition-colors"
+              >
+                <Linkedin className="w-6 h-6" />
+                <span>LinkedIn</span>
+              </a>
+            </div>
+
+            <div className="flex justify-center gap-6 mt-10">
+              <a 
+                href="mailto:lhuannc@gmail.com"
+                className="flex items-center gap-2 text-gray-600 hover:text-yellow-600 transition-colors"
+              >
+                <Mail className="w-6 h-6" />
+                <span>lhuannc@gmail.com </span>
+              </a>
+              <a 
+                href="https://github.com/lhuannc"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-gray-600 hover:text-yellow-600 transition-colors"
+              >
+                <Github className="w-6 h-6" />
+                <span>GitHub</span>
+              </a>
+              <a 
+                href="https://www.linkedin.com/in/lhuann/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-600 hover:text-yellow-600 transition-colors"

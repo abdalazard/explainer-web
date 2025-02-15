@@ -15,7 +15,7 @@ const Manual = () => {
                         <div>
                         <h3 className="text-xl font-semibold mb-2">Instale a extensão</h3>
                         <p className="text-gray-600">
-                            Adicione o Analyzeer ao seu navegador em poucos cliques
+                            Adicione o Explainer ao seu navegador em poucos cliques
                         </p>
                         </div>
                     </li>

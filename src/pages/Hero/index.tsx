@@ -12,7 +12,7 @@ const Hero = () => {
           <div className="flex justify-center mb-6">
             <img 
               src={logo}
-              alt="Analyzeer Logo" 
+              alt="Explainer Logo" 
               className="h-24 md:h-32 border-2 border-yellow-300 rounded-lg p-2 animate-pulse hover:animate-none"
             />
           </div>
