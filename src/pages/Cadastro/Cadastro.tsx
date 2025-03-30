@@ -1,4 +1,6 @@
 
+"use client"
+
 const Cadastro = () => {
   return (
     <div className="min-h-44 mb-40">
