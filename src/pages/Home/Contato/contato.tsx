@@ -40,7 +40,7 @@ const Contato = () => {
               </a>
             </div>
 
-            <div className="flex justify-center gap-6 mt-10">
+            {/* <div className="flex justify-center gap-6 mt-10">
               <a 
                 href="mailto:lhuannc@gmail.com"
                 className="flex items-center gap-2 text-gray-600 hover:text-yellow-600 transition-colors"
@@ -66,7 +66,7 @@ const Contato = () => {
                 <Linkedin className="w-6 h-6" />
                 <span>LinkedIn</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

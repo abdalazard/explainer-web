@@ -1,8 +1,8 @@
-import Contato from "./Contato/contato";
-import Feature from "./Feature";
-import Hero from "./Hero";
-import Manual from "./Manual";
-import Sobre from "./Sobre/sobre";
+import Contato from "./Home/Contato/contato";
+import Feature from "./Home/Feature";
+import Hero from "./Home/Hero";
+import Manual from "./Home/Manual";
+import Sobre from "./Home/Sobre/sobre";
 
 const LandingPage = () => {
   return (

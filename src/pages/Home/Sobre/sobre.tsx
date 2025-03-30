@@ -2,7 +2,7 @@ import { Download, Mail, Github, Linkedin } from 'lucide-react';
 
 const Sobre = () => {
   return (
-    <div className="min-h-44 mb-32">
+    <div className="min-h-44">
       <section className="py-20 bg-white" id="sobre">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
@@ -73,7 +73,7 @@ const Sobre = () => {
             </div>
           </div>
 
-          <div className="flex justify-center items-center">
+          {/* <div className="flex justify-center items-center">
             <div className="flex flex-row">
               <div className="flex flex-col items-center mr-10">
                 <img 
@@ -117,7 +117,7 @@ const Sobre = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
