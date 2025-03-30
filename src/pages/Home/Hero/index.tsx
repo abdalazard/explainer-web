@@ -21,7 +21,7 @@ const Hero = () => {
           <div className="flex justify-center">
             <a
               className={`bg-white text-blue-600 font-semibold px-8 py-4 rounded-lg flex items-center gap-2 hover:bg-blue-50 transition-colors ${!isFirefox ? 'opacity-50 cursor-not-allowed' : ''}`}
-              href={isFirefox ? "https://addons.mozilla.org/firefox/downloads/file/4464849/analyzeer-1.0.6.zip" : undefined}
+              href={isFirefox ? "https://addons.mozilla.org/firefox/downloads/file/4464882/analyzeer-1.0.6.xpi" : undefined}
               target={isFirefox ? "_blank" : undefined}
               rel={isFirefox ? "noopener noreferrer" : undefined}
               aria-disabled={!isFirefox}
