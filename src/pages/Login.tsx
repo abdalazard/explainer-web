@@ -1,6 +1,5 @@
 import Acesso from "./Login/Acesso";
 
-
 const Login = () => {
   return (
     <div className="min-h-screen">
